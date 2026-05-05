@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-lsb_release -si
+. /etc/os-release && echo "$ID"
